@@ -22,7 +22,7 @@ alert(a);
 ## 变量
 var ``（作用域是函数）``
 1.可以为一个变量重复声明
-```
+```js
 var a=10;
 var a=0;
 consolr.log(a);   //不会报错 打印出 0
@@ -218,7 +218,7 @@ eg：let str=`a${a}
 ## ES6的面向对象
 1. 多了class关键字,有了专门的构造器，构造器和类分开了
 2. class里面直接加方法，不用再用原型加方法了
-```
+```js
 function User(name,pass)  //在原来的js中类和构造函数样子一样 原来的写法
 	{
 		this.name=name;
@@ -253,7 +253,7 @@ function User(name,pass)  //在原来的js中类和构造函数样子一样 原�
 	ul.showPass();
 ```
 继承：
-```
+```js
 //普通的继承
 	function User(name,pass)  //在原来的js中类和构造函数样子一样
 	{
@@ -326,7 +326,7 @@ class User{
 2.简写
     名字跟值（key和value）一样的     留一个就行
     方法     ：function一块删掉
-```
+```js
     let a=12;  //名字和变量一样时可以只写一位
 	let b=5;
 	let json={a,b,c:5};
@@ -356,7 +356,7 @@ Promise ——承诺
 Promise ——消除异步操作
 * 用同步一样的方法，来书写异步代码 
 eg：之前在ajax代码中要加入代码实现代码的异步操作，就必须使用嵌套。而怎样使得具有异步功效的代码可以像同步代码一样书写一条一条并列的代码，方便用户理解。
-```
+```js
 let p1=new Promise(function(resolve,reject){  //resolve——成功了   reject——失败了
 		ajax({
 			url:"",
