@@ -2,14 +2,12 @@
 ## ES6-node
 
 1. [let 和 const 命令][1]
-
  * [块级作用域的绑定][2]
  * [let，const声明][3]
  * [临时死区(TDZ)][4]
  * [循环中的块级作用域][5]
  
 2. [函数的扩展][6]
-
  * 函数形参的默认值
  * ES6中默认参数值
  * [默认参数下参数的作用域][7]
@@ -20,17 +18,25 @@
  * 自执行函数
  
 3. [数组的扩展][9]
-
  * 字符串
  * 扩展运算符
  * 扩展运算符的应用
  
 4. [认识 熟悉 Promise 对象][10]
-
  * 创建 未完成的Promise
  * 创建已处理的Promise
  * 响应多个Promise
  
+5. [Set和Map数据结构][11]
+ * Set
+ * Set实例上的属性和方法
+ * WeakSet
+ * Map
+ * [WeakMap][12]
+ 
+6. [for of][13]
+ * for-of与对象
+ * 与其他遍历语句的比较
 
 
   [1]: https://github.com/xiaoyao21/ES6-nodes/blob/master/let-const.md
@@ -43,3 +49,6 @@
   [8]: https://github.com/xiaoyao21/ES6-nodes/blob/master/function.md#es6-%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0
   [9]: https://github.com/xiaoyao21/ES6-nodes/blob/master/Array.md
   [10]: https://github.com/xiaoyao21/ES6-nodes/blob/master/Promise.md
+  [11]: https://github.com/xiaoyao21/ES6-nodes/blob/master/Set-Map.md
+  [12]: https://github.com/xiaoyao21/ES6-nodes/blob/master/Set-Map.md#weakmap
+  [13]: https://github.com/xiaoyao21/ES6-nodes/blob/master/for%20of.md
